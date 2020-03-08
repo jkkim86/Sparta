@@ -4,9 +4,8 @@
 
 <head>
     <title>로그인페이지</title>
-     
-    <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -18,55 +17,98 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <link href="https://fonts.google.com/specimen/East+Sea+Dokdo" 
+    
+    <style type="text/css">
+        * {
+            font-family: 'stylish', san-serif;
+        }
+        .wrap {
+            width: 900px;
+            margin: auto;
+        }
+        .comment {
+            color: blue;
+            font-weight: bold;
+        }
+        .form-post {
+            max-width: 500px;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-color: #e9ecef;
+            border-radius: 0.3rem;
+            border: solid;
+            display: block;
+        }
+
+    </style>
+    
 </head>
 
 <Body>
-    <div class="jumbotron">
-        <h1 class="display-4">나홀로 링크 메모장!</h1>
-        <p class="lead">중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다.</p>
-        <hr class="my-4">
-        <a class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
-    <br>
-        
-    <div class="mytitle">
-        <p>
-        아티클 URL 
-        <input type="text">
-        </p>
-        <p>
-        간단 코멘트 
-        <input type="password">   
-        </p>
-        <button class="mybtn">기사저장</button>
+    <div class="wrap">
+        <div class="jumbotron">
+            <h1 class="display-4">나홀로 링크 메모장!</h1>
+            <p class="lead">중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다.</p>
+            <hr class="my-4">
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
+            <br>
 
-  
+            <div class="mytitle">
+                <p>
+                    아티클 URL
+                    <input type="text">
+                </p>
+                <p>
+                    간단 코멘트
+                    <input type="password">
+                </p>
+                <button class="mybtn">기사저장</button>
 
-    <div class="card-group">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="mytitle">
+                    <p>
+                        아티클 URL
+                        <input type="text">
+                    </p>
+                    <p>
+                        간단 코멘트
+                        <input type="password">
+                    </p>
+                    <button class="mybtn">기사저장</button>
+
+            <div class="card-group">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://tpc.googlesyndication.com/simgad/6985105137529596196?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlYaPaTP3mn14qLU1MTVnDyO02TWA"
+                        width="100px" height="900px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This card has even longer content than the first to show that equal height action.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="https://tpc.googlesyndication.com/simgad/6985105137529596196?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlYaPaTP3mn14qLU1MTVnDyO02TWA" width="100px" height="900px" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-        </div>
-    </div>
 </Body>
